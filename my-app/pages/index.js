@@ -14,6 +14,8 @@ export default function Home() {
   //ref because it will persist for the lifetiem of the component( that is, when the user is
   //viewing the website)
   const zero = BigNumber.from(0);
+  
+  console.log(zero)
   const [tokensMinted, setTokensMinted] = useState(zero);
   const [balanceOfCryptoDevTokens, setBalanceOfCryptoDevTokens] =
     useState(zero);
